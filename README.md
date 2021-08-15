@@ -1,5 +1,5 @@
 # emojiPedia 
-link for live project : https://s9nd4.csb.app/
+## link for live project : [Emojipedia](https://emojipedia-reactjs.netlify.app/)
 Created with CodeSandbox
-
-fun Emoji app to knoe meaning of emoji.
+### Portfolio link : [Portfolio](https://omkarchaskar.netlify.app/projects.html)
+fun Emoji app to know meaning of emoji.
