@@ -6,19 +6,17 @@ const emojiDictionary = {
   "🤔": "Thinking Face",
   "😪": "Sleepy Face",
   "😢": "Crying Face",
-  "🤯": "Exploding Head"
+  "🤯": "Exploding Head",
+  "😵": "Dizzy Face",
+  "😫": "Tired Face",
+  "👽": "Alien",
+  "🤡": "Clown Face",
+  "👻": "Ghost"
 };
 
 var emojisWeKnow = Object.keys(emojiDictionary);
 
 export default function App() {
-  // function clickHandler() {
-  // var newClickCountVlaue = clickCount + 1;
-  // console.log("click" + clickCount);
-  // setClickCounter(newClickCountVlaue);
-  // }
-  // console.log("likecounter", clickCount)
-
   const [meaning, setMeaning] = useState("");
   function emojiInputHandler(event) {
     var userInput = event.target.value;
@@ -32,7 +30,6 @@ export default function App() {
   }
 
   function emojiClickHandler(emoji) {
-    // console.log("click", emoji);
     var meaning = emojiDictionary[emoji];
     setMeaning(meaning);
   }
