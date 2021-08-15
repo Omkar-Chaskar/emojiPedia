@@ -39,7 +39,6 @@ export default function App() {
   return (
     <div className="App">
       <h1>EmojiPedia</h1>
-      {/* <button onClick={clickHandler}>Like</button><span>{clickCount}</span> */}
 
       <input onChange={emojiInputHandler}></input>
       <h2>{meaning}</h2>
